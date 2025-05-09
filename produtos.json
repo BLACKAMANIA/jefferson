@@ -1,0 +1,12 @@
+[
+  {
+    "id": 1,
+    "nome": "Dipirona 500mg",
+    "preco": 10.0
+  },
+  {
+    "id": 2,
+    "nome": "Amoxicilina 500mg",
+    "preco": 25.0
+  }
+]

@@ -1,0 +1,21 @@
+body {
+  font-family: sans-serif;
+  padding: 20px;
+}
+
+#produtos {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.produto {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+button {
+  margin-top: 5px;
+  padding: 5px 10px;
+}
