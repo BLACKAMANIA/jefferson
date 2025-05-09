@@ -55,7 +55,7 @@ function finalizarPedido() {
   const entrega = document.getElementById('entrega').value;
   const pagamento = document.getElementById('pagamento').value;
 
-  let msg = `*Novo Pedido Farmácia*%0A`;
+  let msg = `*Pedido Drogaria Lucena*%0A`;
   carrinho.forEach(item => {
     msg += `- ${item.nome} (R$ ${item.preco.toFixed(2)})%0A`;
   });
@@ -63,9 +63,9 @@ function finalizarPedido() {
   msg += `%0ATotal: R$ ${document.getElementById('total').textContent}`;
   msg += `%0ANome: ${nome}`;
   msg += `%0ATelefone: ${tel}`;
-  msg += `%0AForma de entrega: ${entrega}`;
+  msg += `%0AEntrega: ${entrega}`;
   msg += `%0APagamento: ${pagamento}`;
 
-  const foneDestino = '5511999999999'; // <-- Substitua pelo seu número com DDD e país
-  window.open(`https://wa.me/${foneDestino}?text=${msg}`, '_blank');
+  const fone = '5531982466044';
+  window.open(`https://wa.me/${fone}?text=${msg}`, '_blank');
 }

@@ -1,6 +1,8 @@
 body {
   font-family: sans-serif;
   padding: 20px;
+  max-width: 600px;
+  margin: auto;
 }
 
 #produtos {
@@ -18,4 +20,13 @@ body {
 button {
   margin-top: 5px;
   padding: 5px 10px;
+  cursor: pointer;
+}
+
+input, select {
+  display: block;
+  margin: 10px 0;
+  padding: 8px;
+  width: 100%;
+  box-sizing: border-box;
 }
